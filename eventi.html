@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="max-age=604800, public">
+    <title>Physis Studio - Eventi Piccoli/Feste private</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/servizi.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <div class="logo">
+                <img src="img/logotr.png" alt="Physis Studio" loading="lazy">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">HOME</a></li>
+                    <li><a href="index.html#azienda">L'AZIENDA</a></li>
+                    <li><a href="index.html#servizi">SERVIZI</a></li>
+                    <li><a href="index.html#chisono">CHI SONO</a></li>
+                    <li><a href="index.html#secundo">GALLERIA</a></li>
+                    <li><a href="index.html#contatti">CONTATTO</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+
+    <main style="background-color: #1e2022;">
+        <section id="ritratti" class="sectitle">
+            <h1>Eventi Piccoli/Feste private</h1>
+            <div class="sepbar"></div>
+        </section>
+        
+        <section class="cstext">
+            <h1 style="font-size: 17px; font-family: 'GeosansLight', sans-serif !important;">Il tuo evento, catturato in ogni dettaglio!</h1>
+
+            <p>Che si tratti di una festa di compleanno, un anniversario 
+                speciale, una laurea, battesimo, comunione, cresima o una serata 
+                tra amici, Physis Studio è qui per rendere i tuoi momenti indimenticabili. 
+                Offriamo servizi fotografici personalizzati per eventi e feste private, con 
+                scatti spontanei, emozionanti e divertenti, che catturano la vera essenza della 
+                tua celebrazione.</p>
+        </section>
+
+        <section id="secundo" style="background-color: #1e2022;">
+            <!-- <div class="sectitle">
+              <h1>GALLERIA</h1>
+              <div class="sepbar"></div> -->
+          </div>
+          <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="imgDisplay">
+          </div>
+          
+          <div id="falbum">
+            <a><img src="img/croped/eventi/croped/Comp (2 di 1)-min.jpg"         data-full="img/croped/eventi/Comp (2 di 1)-min.jpg" alt="img6" loading="lazy"></a>
+            <a><img src="img/croped/eventi/croped/Federico (198 di 1)-min.jpg"   data-full="img/croped/eventi/Federico (198 di 1)-min.jpg" alt="img6" loading="lazy"></a>
+            <a><img src="img/croped/eventi/croped/img3.jpg"                      data-full="img/croped/eventi/img3.jpg" alt="img6" loading="lazy"></a>
+            <a><img src="img/croped/eventi/croped/img7.jpg"                      data-full="img/croped/eventi/img7.jpg" alt="img6" loading="lazy"></a>
+            <a><img src="img/croped/eventi/croped/Luigi (93 di 1)-min.jpg"       data-full="img/croped/eventi/Luigi (93 di 1)-min.jpg" alt="img6" loading="lazy"></a>
+            <a><img src="img/croped/eventi/croped/Francesco (173 di 210).jpg"       data-full="img/croped/eventi/Francesco (173 di 210).jpg" alt="img6" loading="lazy"></a>
+            <a><img src="img/croped/eventi/croped/Carlotta (116 di 1).jpg"       data-full="img/croped/eventi/Carlotta (116 di 1).jpg" alt="img6" loading="lazy"></a>
+            <a><img src="img/croped/eventi/croped/Francesco (174 di 210).jpg"       data-full="img/croped/eventi/Francesco (174 di 210).jpg" alt="img6" loading="lazy"></a>
+            <a><img src="img/croped/eventi/croped/Luigi (122 di 1).jpg"       data-full="img/croped/eventi/Luigi (122 di 1).jpg" alt="img6" loading="lazy"></a>
+            <a><img src="img/croped/eventi/croped/Carlotta (174 di 1).jpg"       data-full="img/croped/eventi/Carlotta (174 di 1).jpg" alt="img6" loading="lazy"></a>
+            <a><img src="img/croped/eventi/croped/Carlotta (4 di 1).jpg"         data-full="img/croped/eventi/Carlotta (4 di 1).jpg" alt="img6" loading="lazy"></a>
+            <a><img src="img/croped/eventi/croped/Luigi (124 di 1).jpg"         data-full="img/croped/eventi/Luigi (124 di 1).jpg" alt="img6" loading="lazy"></a>
+            <a><img src="img/croped/eventi/croped/Carlotta (5 di 1).jpg"         data-full="img/croped/eventi/Carlotta (5 di 1).jpg" alt="img6" loading="lazy"></a>
+            <a><img src="img/croped/eventi/croped/Carlotta (6 di 1).jpg"         data-full="img/croped/eventi/Carlotta (6 di 1).jpg" alt="img6" loading="lazy"></a>
+        </div>
+          
+          <!-- Modal pour afficher les images en haute résolution -->
+          <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="imgDisplay" alt="">
+            
+            <!-- Flèches de navigation -->
+            <a class="prev" id="prev">&#10094;</a>
+            <a class="next" id="next">&#10095;</a>
+          </div>
+          
+          
+          </section>
+    </main>
+
+    <footer>
+        <section id="footertop">
+            <img class="logo" src="img/logo.png" alt="Physis Studio" loading="lazy">
+        </section>
+    </footer>
+
+    <button id="scroll-top-btn" type="button" onmousedown="scrollToTop()">
+        ↑
+    </button>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
